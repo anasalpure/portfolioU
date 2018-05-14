@@ -1,0 +1,276 @@
+
+.no{
+color: 
+#02b3e3
+#2d3c49
+#7d97ad
+}
+
+*{
+  box-sizing:border-box;
+  font-family: 'Roboto' , Times;
+  color: #2d3c49;
+}
+
+body {overflow-x: hidden;}
+
+  
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bree Serif', Helvetica, Arial, sans-serif;
+  color: #02b3e3;
+  margin: 3px;
+}
+
+h3{
+  font-size: 1em;
+}
+
+a {
+  font-family: 'Roboto',sans-serif ;
+    font-size:0.7em;
+  cursor: pointer;
+  color: #0686a7;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #7d97ad;
+  text-decoration: underline;
+}
+
+img , embed ,object , video {
+    max-width : 100%; 
+}
+    
+.block-with-text {
+  overflow: hidden;
+  position: relative; 
+  line-height: 1.2em;
+  text-align: justify; 
+  margin-right: -1em;
+  padding-right: 1em;
+}
+  
+
+
+/* bg colors*/
+
+.bg-primary {
+  background-color: #02b3e3 !important; 
+}
+
+.bg-success {
+  background-color: #90a878 !important; 
+}
+
+.bg-none {
+  background: none !important;
+ }
+
+
+
+
+
+/* button types*/
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+  transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  padding: 0.65rem 0.3rem;
+  font-size: 0.9rem;
+  line-height: 0.5;
+  border-radius: 3px;
+}
+
+.btn:focus, .btn:hover {
+  text-decoration: none;
+}
+
+
+
+.btn-primary {
+background-color: #02b3e3;
+border:0.2px solid #000;
+box-shadow: none;
+color: #000; 
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #2d3c49;
+  border-color: #a07e49;
+  box-shadow: none; 
+}
+.btn-primary:focus, .btn-primary.focus {
+  color: #313131;
+  background-color: #7d97ad;
+  border-color: #a07e49; 
+}
+.btn-primary:active, .btn-primary.active {
+  color: #fff;
+  background-color: #a07e49;
+  border-color: #a07e49;
+  background-image: none;
+  box-shadow: none;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff !important;
+  background-color: #a07e49 !important;
+  border-color: #a07e49 !important;
+  opacity: 0.85; 
+}
+
+
+/* text colors*/
+.text-primary {
+    color: #02b3e3 !important; 
+  }
+.text-secoundry {
+    color: #2d3c49    !important; 
+}
+
+
+
+/* link */ 
+/* unvisited link */
+a:link {
+  color:  #2d3c49;
+}
+/* visited link */
+a:visited {
+  color: #7d97ad;
+}
+/* mouse over link */
+a:hover {
+  color: #2d3c49  ;
+}
+/* selected link */
+a:active {
+  color: #2e6088;
+} 
+  
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.center{
+  text-align: center;
+}
+
+.col-4{
+  max-width: 33.33%;
+  margin-bottom: 16px !important;
+  padding: 4px;
+}
+m-2{
+  margin: 2px;
+}
+
+img.rounded{
+border-radius: 2px;
+box-shadow: 1px 2px 3px #597478;
+}
+img.thamp{
+  width:100%;
+  max-width: 100%;
+  height: auto;
+}
+
+img.thamp:hover{
+   opacity: 0.9;
+}
+
+hr.prim{
+  color: #02b3e3;
+}
+
+.card{
+  overflow-x: hidden;
+}
+
+.card:hover{
+  overflow-x: hidden;
+  cursor: pointer;
+  
+}
+
+
+.nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:focus, .nav-link:hover {
+  text-decoration: none;
+}
+
+
+/* break poients*/
+/*sm*/
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  h3{
+    font-size: 1.17em;
+  }
+  a{
+    font-size: 1em;
+  }
+  .btn{
+    padding: 0.65rem 1.3rem;
+  }
+}
+
+/*m*/
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+/*lg*/
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+/*xlg*/
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
