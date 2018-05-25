@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>portfolio udacity</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet"  href="css/style.css">
   </head>
   <body>
 
     <header >
-        <h1 >
+        <h1>
           hi with my portfolio
         </h1>
+
+        <img class="logo" src="img/logo.png" alt="logo">
 
         <div class="m-2">
             <span class="color-primary">Filter: </span> 
@@ -21,38 +23,46 @@
             <button class="btn btn-primary">Design</button>
             <button class="btn btn-primary">other</button>   
         </div>
-      <hr class="prim">
+       
+        <hr class="prim">
     </header>
 
     <main>
-      <section >
-    
-          <img class="big-img" src="img/master.jpeg" alt="master img ">
+
+      <img class="big-img" src="img/master.jpeg" alt="master img ">
+      
+      <article class="container">
           <h2>Featured Work</h2>
-          <section class="container center">
+          <p class="desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque.
+          </p>
+          <div class="row center">
 
-            <div class="col-4 card">
-              <img class="thamp rounded"  src="img/img1.png" alt="Sandwich">
-              <h3>APPIFY</h3>
-              <a href="https://google.com">www.google.com</a>
+              <div class="col-4 card">
+                <img class="thamp rounded"  src="img/img1.png" alt="World">
+                <span class="placement">World</span>                
+                <h3>APPIFY</h3>
+                <a href="https://google.com">www.google.com</a>
+              </div>
+
+
+              <div class="col-4 card">
+                <img class="thamp rounded"  src="img/img2.png" alt="Earth">
+                <span class="placement">Earth</span>
+                <h3>SUNFLOWER</h3>
+                <a href="https://github.com">www.github.com</a>
+              </div>
+
+
+              <div class="col-4 card">
+                <img  class="thamp rounded" src="img/img3.jpg" alt=" Sandwich">
+                <span class="placement">nature</span>
+                <h3>BOKEH</h3>
+                <a href="https://stackoverflow.com">www.stackoverflow.com</a>
+              </div>
+
             </div>
-
-
-            <div class="col-4 card">
-              <img class="thamp rounded"  src="img/img2.png" alt="Sandwich">
-              <h3>SUNFLOWER</h3>
-              <a href="https://github.com">www.github.com</a>
-            </div>
-
-
-            <div class="col-4 card">
-              <img  class="thamp rounded" src="img/img3.jpg" alt=" Sandwich">
-              <h3>BOKEH</h3>
-              <a href="https://stackoverflow.com">www.stackoverflow.com</a>
-            </div>
-
-          </section>
-      </section>
+      </article>
 
       <footer>
         <ul class="nav">
