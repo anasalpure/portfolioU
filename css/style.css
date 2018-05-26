@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Bree Serif', Helvetica, Arial, sans-serif;
+  font-family: "Bree Serif" , Helvetica, Arial, sans-serif;
   color: #02b3e3;
   margin: 3px;
 }
@@ -44,7 +44,9 @@ a:hover {
   text-decoration: underline;
 }
 
-img , embed ,object , video {
+img ,
+embed ,
+video {
     max-width : 100%; 
 }
     
@@ -201,23 +203,23 @@ m-2 {
   margin: 2px;
 }
 
-img.rounded {
+.rounded {
 border-radius: 2px;
 box-shadow: 1px 2px 3px #597478;
 }
-img.thamp {
+.thamp {
   width:100%;
   max-width: 100%;
   height: auto;
 }
 
-img.thamp:hover {
+.thamp:hover {
    opacity: 0.9;
 }
 
 
 
-img.logo {
+.logo {
   position: relative;
   margin: 0px auto;
   display: block;
@@ -228,7 +230,7 @@ hr.prim {
   color: #02b3e3;
 }
 
-p.desc {
+.desc {
   margin: 2px 13px;
 }
 
@@ -237,7 +239,7 @@ p.desc {
   overflow-x: hidden;
 }
 
-span.placement {
+.placement {
   display: none;
   position: absolute;
   left: 43%;
@@ -248,7 +250,7 @@ span.placement {
                1px -7px 7px #2d2e2f;
   
 }
-.card:hover >span.placement {
+.card:hover > .placement {
   display: block;
 }
 .card:hover {
@@ -288,7 +290,7 @@ span.placement {
     padding: 4px;
   }
 
-  img.logo {
+  .logo {
     position: absolute;
     top: 0px;
     margin: 2px 8px;
